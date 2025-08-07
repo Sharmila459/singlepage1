@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <title>Horizontal Navbar</title>
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Arial, sans-serif;
+ }
+ nav {
+ background-color: #333;
+ padding: 10px 0;
+ }
+ ul {
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ }
+ li {
+ padding: 12px 20px;
+ color: white;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ }
+ li:hover {
+ background-color: #555;
+ }
+ .active {
+ background-color: #007BFF;
+ font-weight: bold;
+ }
+ </style>
+</head>
+<body>
+ <nav>
+ <ul>
+ <li class="active">Home</li>
+ <li>About</li>
+ <li>Services</li>
+ <li>Products</li>
+ <li>Contact</li>
+ </ul>
+ </nav>
+</body>
+</html>
